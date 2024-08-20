@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,21 +8,65 @@ html {
     font-size: 62.5%;
 }
 
-body{
+body {
     color: black;
-    background-color: white;
+    background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
 }
 
-header{
+.dark-mode{
+    background-color: black;
+}
+
+.dark-mode header h1{
+    color: white;
+}
+
+.dark-mode footer{
+    color: white;
+}
+
+header {
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+section {
     border: solid 0.1px black;
+    border-radius: 2rem;
+    vertical-align: top;
+    display: inline-block;
+    width: 48%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: pink;
+    height: 80rem;
 }
 
-section{
-    border: solid 0.1px cyan;
+section:first-of-type {
+   margin-left: 1%;
+   margin-right: 2%;
+   height: 30rem;
 }
 
-footer{
-    border: solid 0.1px red;
+section:last-of-type{
+    vertical-align: bottom;
+    margin-top: 20%;
+    height: 40rem;
+}
+
+section h2{
+    text-align: center;
+}
+
+section p{
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
