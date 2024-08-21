@@ -33,28 +33,24 @@ header {
     text-align: center;
 }
 
+main {
+    border: solid black;
+}
+
 section {
     border: solid 0.1px black;
     border-radius: 2rem;
-    vertical-align: top;
-    display: inline-block;
-    width: 48%;
     padding: 0.5rem;
     margin-top: 1rem;
     background-color: pink;
-    height: 80rem;
+    display: inline-block;
+    width: 48%;
 }
 
-section:first-of-type {
-   margin-left: 1%;
-   margin-right: 2%;
-   height: 30rem;
-}
-
-section:last-of-type{
-    vertical-align: bottom;
-    margin-top: 20%;
-    height: 40rem;
+aside {
+    border: solid yellow;
+    display: inline-block;
+    width: 30%;
 }
 
 section h2{
