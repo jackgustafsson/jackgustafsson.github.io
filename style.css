@@ -33,10 +33,6 @@ header {
     text-align: center;
 }
 
-main {
-    border: solid black;
-}
-
 section {
     border: solid 0.1px black;
     border-radius: 2rem;
@@ -48,9 +44,42 @@ section {
 }
 
 aside {
-    border: solid yellow;
     display: inline-block;
     width: 30%;
+}
+
+aside:last-of-type a{
+    color: black;
+    text-decoration: none;
+}
+
+section:first-of-type{
+    vertical-align: top;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+section:last-of-type {
+   margin-left: 25rem;
+   margin-top: 3rem;
+   vertical-align: top;
+}
+
+aside:first-of-type{
+    margin-left: 35rem;
+    margin-top: 1rem;
+}
+
+aside:last-of-type{
+    border: 0.1rem solid black;
+    border-radius: 50%;
+    width: 25%;
+    padding: 10%;
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 4rem;
+    background-color: yellow;
 }
 
 section h2{
