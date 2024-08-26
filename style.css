@@ -16,7 +16,7 @@ body {
 }
 
 .dark-mode{
-    background-color: black;
+    background-color: grey;
 }
 
 .dark-mode header h1{
@@ -45,32 +45,6 @@ section {
 
 aside {
     display: inline-block;
-    width: 30%;
-}
-
-aside:last-of-type a{
-    color: black;
-    text-decoration: none;
-}
-
-section:first-of-type{
-    vertical-align: top;
-    margin-left: 3rem;
-    padding: 1rem;
-}
-
-section:last-of-type {
-   margin-left: 25rem;
-   margin-top: 3rem;
-   vertical-align: top;
-}
-
-aside:first-of-type{
-    margin-left: 35rem;
-    margin-top: 1rem;
-}
-
-aside:last-of-type{
     border: 0.1rem solid black;
     border-radius: 50%;
     width: 25%;
@@ -80,6 +54,31 @@ aside:last-of-type{
     text-align: center;
     font-size: 4rem;
     background-color: yellow;
+}
+
+img{
+    margin-left: 15rem;
+}
+
+aside a{
+    color: black;
+    text-decoration: none;
+}
+
+aside a:hover{
+    color: red;
+}
+
+section:first-of-type{
+    vertical-align: top;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+section:last-of-type {
+   margin-left: 45rem;
+   margin-top: 3rem;
+   vertical-align: top;
 }
 
 section h2{
