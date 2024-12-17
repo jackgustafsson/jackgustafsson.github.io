@@ -78,6 +78,10 @@ section#projects{
     margin-right: 5rem;
 }
 
+section#projects ol{
+    margin: 3rem;
+}
+
 footer {
     margin-top: 20rem;
     text-align: center;
