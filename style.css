@@ -2,87 +2,98 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-html {
-    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    color: black;
-    background-color: lightgrey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-}
-
-.dark-mode{
-    background-color: grey;
-}
-
-.dark-mode header h1{
-    color: white;
-}
-
-.dark-mode footer{
-    color: white;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 header {
-    padding: 2rem;
-    margin-top: 1rem;
+    padding: 2rem 0;
     text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #004d99;
 }
 
 main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
 }
 
-section.style{
-    border: solid 0.1px black;
-    border-radius: 2rem;
-    padding: 0.5rem;
-    background-color: pink;
+section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-section.style h2{
+section#image img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+section#links {
     text-align: center;
 }
 
-section#about{
-    height: min-content;
-    margin-left: 5rem;
-}
-
-section#img{
-    margin-left: 15rem;
-}
-
-section#link a{
-    border: 0.1rem solid black;
-    border-radius: 50%;
-    padding: 15%;
-    color: black;
+section#links a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0066cc;
+    color: #fff;
     text-decoration: none;
-    background-color: yellow;
-    font-size: 3rem;
-    margin-left: 30rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
 }
 
-section#link a:hover{
-    color: red;
-}
-
-section#projects{
-    margin-right: 5rem;
-}
-
-section#projects ol{
-    margin: 3rem;
+section#links a:hover {
+    background-color: #004d99;
 }
 
 footer {
-    margin-top: 20rem;
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+.dark-mode header {
+    background-color: #444;
+}
+
+.dark-mode footer {
+    background-color: #444;
 }
