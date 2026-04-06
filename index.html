@@ -1,50 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enhanced Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Jack Gustafsson</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <button onclick="myFunction()">Toggle Dark/Light Mode</button>
+        <h2>Jack Gustafsson</h2>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Hem</a></li>
+                <li><a href="./html/projects.html">Projekt</a></li>
+                <li><a href="./html/about.html">Om mig</a></li>
+                <li><a href="./html/contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi! I'm Jack Gustafsson, a 19-year-old programmer from Ängelholm, studying at NTI Gymnasiet Helsingborg. I enjoy martial arts and gaming in my free time.</p>
-        </section>
-
-        <section id="image">
-            <img src="images/IMG_1387.jpg" alt="A landscape" />
-        </section>
-
-        <section id="links">
-            <a href="https://github.com/jackgustafsson/jackgustafsson.github.io">View My GitHub</a>
-        </section>
-
-        <section id="projects">
-            <h2>My Projects</h2>
-            <ul>
-                <li><a href="https://ntig-helsingborg.github.io/TE4_24-25_BookStore/">WebShop Light</a></li>
-                <li><a href="https://ntig-helsingborg.github.io/TE4_24-25_PokemonWeb/login">Pokemon Web</a></li>
-                <li><a href="https://eoxys1.itch.io/goblin-knight">Goblin Knight</a></li>
-                <li><a href="https://jackgustafsson.github.io/GameWebb/">Space Shooter</a></li>
-                <li><a href="https://ntig-helsingborg.github.io/TE4_24-25_SITE/">TE4 Site</a></li>
-            </ul>
-            <p>For technical reasons, I am unfortunately unable to show my degree project — neither the report nor the prototype.</p>
-        </section>
+        <div class="container">
+            <img src="./images/jack.jpg" alt="bild på mig">
+            <div>
+                <h2>Min Portfolio</h2>
+                <p>Hej och välkommen till min portfolio! Jag heter Jack Gustafsson och studerar frontend-utveckling
+                    vid Grit Academy i Malmö. Jag är noggrann, målinriktad och gillar att snabbt sätta mig in i nya
+                    tekniker för att förstå hur saker fungerar. Här kan du se några av mina projekt och ta gärna en
+                    titt på min GitHub för fler exempel på mitt arbete.</p>
+                <a href="./html/projects.html">Mina projekt</a>
+                <a href="https://github.com/jackgustafsson" target="_blank">Min Github</a>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Jack Gustafsson, NTI Gymnasiet Helsingborg</p>
+        <address>Author: Jack Gustafsson</address>
     </footer>
-</body>
 
 </html>
